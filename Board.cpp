@@ -4,8 +4,8 @@
 using namespace std;
 namespace ariel{
    
-        void Board::post(int row,int col, Direction d,string str){}
-        string Board::read(int row,int col, Direction d,int size){
+        void Board::post(unsigned int row,unsigned int col, Direction d,string str){}
+        string Board::read(unsigned int row,unsigned int col, Direction d,unsigned int size){
             return "random string";
         }
         void Board::show(){}

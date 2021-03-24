@@ -5,8 +5,8 @@ using namespace std;
 namespace ariel{
     class Board{
         public:
-        void post(int row,int col, Direction d,string str);
-        string read(int row,int col, Direction d,int size);
+        void post(unsigned int row,unsigned int col, Direction d,string str);
+        string read(unsigned int row,unsigned int col, Direction d,unsigned int size);
         void show();
     };
 };
